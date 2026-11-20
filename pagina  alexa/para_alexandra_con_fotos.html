@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Alexandra ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+:root{--pink:#ff9fc8;--pink2:#ffd2e5;--purple:#b9a2ff;--ink:#21172d;--cream:#fff6fb}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--cream);font-family:'Nunito',sans-serif;background:radial-gradient(circle at 20% 15%,#4b315f 0,#241a35 34%,#100e1b 78%);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:34px 34px;z-index:0}
+main{width:min(960px,92%);margin:auto;position:relative;z-index:1}
+header{text-align:center;padding:76px 12px 35px}
+.eyebrow{display:inline-block;padding:8px 16px;border:1px solid #ffafd1;border-radius:99px;color:#ffd3e6;background:#ffffff0c;letter-spacing:2px;font-size:.78rem}
+h1,h2,h3{font-family:'Fredoka',sans-serif}
+h1{font-size:clamp(2.5rem,7vw,5.2rem);line-height:1.02;margin:20px 0 12px;color:#ffc2dc;text-shadow:0 4px 0 #8d4e83,0 0 24px #ff8fc5}
+header p{font-size:1.1rem;color:#e8d8ed}
+section{margin:28px 0 48px}
+.panel{background:linear-gradient(145deg,#ffffff13,#ffffff08);border:1px solid #f9b9dc55;border-radius:28px;padding:clamp(20px,4vw,34px);box-shadow:0 18px 55px #08051066;backdrop-filter:blur(8px)}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);color:#ffc1dc;text-align:center;margin:0 0 20px}
+.apology{text-align:center;max-width:720px;margin:auto;font-size:1.12rem;line-height:1.9;color:#f7eaf4}
+.apology strong{color:#ffb6d6}
+.heart{font-size:2rem;display:block;margin:14px}
+.carousel{position:relative;max-width:720px;margin:auto}
+.slide{display:none;animation:fade .7s ease}
+.slide.active{display:block}
+.slide img{width:100%;height:clamp(240px,48vw,430px);object-fit:cover;border-radius:22px;border:3px solid #ffc0df;box-shadow:0 12px 35px #0007}
+.slide p{text-align:center;color:#f6d9e9;margin:12px 0 0}
+@keyframes fade{from{opacity:.35;transform:scale(.985)}to{opacity:1;transform:scale(1)}}
+.arrow{position:absolute;top:45%;border:0;border-radius:50%;width:43px;height:43px;background:#ffe0ef;color:#42243e;font-size:1.5rem;cursor:pointer;box-shadow:0 4px 14px #0005}
+.prev{left:12px}.next{right:12px}
+.dots{text-align:center;margin-top:12px}.dot{width:9px;height:9px;border:0;border-radius:50%;margin:0 4px;background:#8d789c;cursor:pointer}.dot.active{background:#ffafd1}
+.game{text-align:center;min-height:245px}
+.game p{font-size:1.15rem;color:#f4e4f0}
+.buttons{display:flex;justify-content:center;align-items:center;gap:18px;min-height:75px;position:relative;margin-top:18px}
+.btn{border:0;border-radius:99px;padding:14px 30px;font:700 1rem 'Fredoka',sans-serif;cursor:pointer;box-shadow:0 7px 0 #0003;transition:transform .15s}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 #0003}
+.yes{background:linear-gradient(135deg,#ffacd0,#ff75ad);color:#4b2440}
+.no{background:#d9d0e7;color:#342b42;position:relative}
+#answer{font-size:1.2rem;color:#ffc2dc;font-weight:800;min-height:34px;margin-top:18px}
+.music-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.music-card{background:#ffffff0c;border:1px solid #ffffff24;border-radius:20px;padding:14px}
+.music-card h3{color:#ffd0e4;margin:4px 0 10px;font-size:1.15rem}
+.music-card iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:13px}
+.music-card small{display:block;color:#d9c9df;margin-top:9px}
+footer{text-align:center;padding:20px 10px 55px;color:#cdbbd5}
+.web{position:fixed;top:0;width:155px;height:155px;z-index:5;pointer-events:none;opacity:.9}
+.web.left{left:0}.web.right{right:0;transform:scaleX(-1)}
+.web svg{width:100%;height:100%}
+.spider{position:fixed;top:130px;left:25px;font-size:28px;z-index:4;animation:swing 3s ease-in-out infinite;transform-origin:top center}
+@keyframes swing{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+.sparkle{color:#ffc2dc}
+@media(max-width:520px){header{padding-top:66px}.web{width:105px;height:105px}.spider{top:95px;left:12px}.buttons{gap:10px}.btn{padding:13px 24px}}
+</style>
+</head>
+<body>
+<div class="web left" aria-hidden="true"><svg viewBox="0 0 160 160" fill="none" stroke="#f8c6e1" stroke-width="1.5"><path d="M0 0L150 150M0 0L150 0M0 0L0 150M0 0L110 150M0 0L150 110M0 0L75 150M0 0L150 75M0 0L40 150M0 0L150 40"/><path d="M18 0Q14 18 0 18M42 0Q34 34 0 42M68 0Q55 55 0 68M94 0Q76 76 0 94M120 0Q96 96 0 120M146 0Q116 116 0 146"/></svg></div>
+<div class="web right" aria-hidden="true"><svg viewBox="0 0 160 160" fill="none" stroke="#f8c6e1" stroke-width="1.5"><path d="M0 0L150 150M0 0L150 0M0 0L0 150M0 0L110 150M0 0L150 110M0 0L75 150M0 0L150 75M0 0L40 150M0 0L150 40"/><path d="M18 0Q14 18 0 18M42 0Q34 34 0 42M68 0Q55 55 0 68M94 0Q76 76 0 94M120 0Q96 96 0 120M146 0Q116 116 0 146"/></svg></div>
+<div class="spider" aria-hidden="true">🕷️</div>
+<main>
+<header>
+ <span class="eyebrow">✦ UN MENSAJITO PARA TI ✦</span>
+ <h1>Perdóname,<br>Alexandra ♡</h1>
+ <p>Un poquito de ternura, un poquito de misterio y mucho cariño.</p>
+ <img
+  src="img/perdon.jfif"
+  alt="Una disculpa especial para Alexandra"
+  class="imagen-perdon"
+>
+
+</header>
+
+<section class="panel">
+ <h2>Lo siento mucho <span class="sparkle">♡</span></h2>
+ <div class="apology">
+  <span class="heart">🥺💗</span>
+  <p><strong>Perdóname, Alexandra, por ser un tonto.</strong><br>
+   <div class="mensaje-disculpa">
+  <p>Alexa, quiero pedirte perdón de corazón por haberme comportado como un tonto y un estúpido. Sé que cometí errores al insistir en que siguieras en la relación, cuando debí respetar lo que sentías y lo que querías.</p>
+
+  <p>Lamento mucho haberte hecho sentir incómoda, haberte puesto en una situación difícil y no haber sabido entender tus sentimientos. Ahora comprendo que, por mucho cariño que le tenga a alguien, eso no me da derecho a presionarlo ni a intentar convencerlo de quedarse.</p>
+
+  <p>No quiero justificar mi comportamiento ni buscar excusas. Sé que estuvo mal y asumo la responsabilidad de haberte hecho sentir así. Me arrepiento de no haber actuado con la madurez y el respeto que merecías.</p>
+
+  <p>Quiero que sepas que lo siento muchísimo. No te escribo para presionarte, para que cambies de opinión ni para pedirte otra oportunidad. Solo quería reconocer mis errores y pedirte una disculpa sincera.</p>
+
+  <p>Gracias por los momentos que compartimos y perdón por aquellos momentos en los que, en lugar de hacerte sentir bien, terminé haciéndote sentir incómoda. Voy a respetar tu espacio y tus decisiones.</p>
+
+  <p>De verdad, perdóname. ❤️</p>
+</div>
+ </div>
+</section>
+
+<section class="panel">
+ <h2>fotos  e imagenes espero  que  te gusten  🌙</h2>
+ <div class="carousel" aria-label="Carrusel de fotografías">
+  <div class="slide active"><img src="img/ale1.jpg" alt="Fotografía 1"><p>Un recuerdo bonito para ti. 💗</p></div>
+  <div class="slide"><img src="img/ale.jpg" alt="Fotografía 2"><p>Un detalle pequeñito, pero sincero. 🌷</p></div>
+  <div class="slide"><img src="img/ale3.jpg" alt="Fotografía 3"><p>Ojalá sigamos creando buenos recuerdos. ✨</p></div>
+  <div class="slide"><img src="img/ale5.webp" alt="Fotografía 4"><p>Cada momento tiene algo especial. 🫶</p></div>
+  <div class="slide"><img src="img/ale6.jpg" alt="Fotografía 5"><p>Una sonrisa puede iluminarlo todo. 🌙</p></div>
+  <div class="slide"><img src="img/ale.jpg" alt="Fotografía 6"><p>Con cariño y de corazón. 💞</p></div>
+  <div class="slide"><img src="img/ale8.jpg" alt="Fotografía 7"><p>Un recuerdo más para guardar. 🦋</p></div>
+  <div class="slide"><img src="img/ale8.webp" alt="Fotografía 8"><p>Este mensajito es para ti. ♡</p></div>
+  <button class="arrow prev" aria-label="Foto anterior" onclick="moveSlide(-1)">‹</button>
+  <button class="arrow next" aria-label="Foto siguiente" onclick="moveSlide(1)">›</button>
+ </div>
+ <div class="dots" id="dots"></div>
+</section>
+
+<section class="panel game">
+ <h2>Una preguntita importante… 🍄</h2>
+ <p>¿Quieres salir conmigo por unas michimbas? 🥺</p>
+ <div class="buttons" id="buttonArea">
+  <button class="btn yes" onclick="sayYes()">¡SÍ! 💖</button>
+  <button class="btn no" id="noBtn">No 🙈</button>
+ </div>
+ <div id="answer" aria-live="polite"></div>
+</section>
+
+<section class="panel">
+ <h2>Cancioncitas para acompañar este mensaje 🎧</h2>
+ <div class="music-grid">
+  <article class="music-card">
+   <h3>Natalia Lafourcade — Hasta la raíz</h3>
+   <iframe src="https://www.youtube-nocookie.com/embed/IKmPci5VXz0" title="Natalia Lafourcade - Hasta la Raíz" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <small>Una canción para recordar lo que alguien significa. ♡</small>
+  </article>
+  <article class="music-card">
+   <h3>Carla Morrison — Déjenme llorar</h3>
+   <iframe src="https://www.youtube-nocookie.com/embed/l4dd1ouRoLs" title="Carla Morrison - Déjenme Llorar" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <small>Una canción llena de sentimiento. 🌧️</small>
+  </article>
+ </div>
+ <p style="text-align:center;color:#d9c9df;font-size:.9rem;margin:18px 0 0">Los videos se reproducen desde YouTube; toca ▶ para escucharlos.</p>
+</section>
+<footer>Hecho con cariño, telarañitas y un corazón que quiere hacer las cosas bien. 🕸️💗</footer>
+</main>
+<script>
+let current=0;
+const slides=[...document.querySelectorAll('.slide')];
+const dotsBox=document.getElementById('dots');
+slides.forEach((_,i)=>{const b=document.createElement('button');b.className='dot'+(i===0?' active':'');b.setAttribute('aria-label','Ver foto '+(i+1));b.onclick=()=>showSlide(i);dotsBox.appendChild(b)});
+function showSlide(n){current=(n+slides.length)%slides.length;slides.forEach((s,i)=>s.classList.toggle('active',i===current));[...dotsBox.children].forEach((d,i)=>d.classList.toggle('active',i===current))}
+function moveSlide(n){showSlide(current+n)}
+setInterval(()=>moveSlide(1),3800);
+
+const noBtn=document.getElementById('noBtn');
+const area=document.getElementById('buttonArea');
+function runAway(){
+ const areaRect=area.getBoundingClientRect();
+ const btnRect=noBtn.getBoundingClientRect();
+ const maxX=Math.max(0,areaRect.width-btnRect.width);
+ const maxY=55;
+ noBtn.style.position='absolute';
+ noBtn.style.left=Math.random()*maxX+'px';
+ noBtn.style.top=(Math.random()*maxY-10)+'px';
+}
+noBtn.addEventListener('mouseenter',runAway);
+noBtn.addEventListener('touchstart',(e)=>{e.preventDefault();runAway()},{passive:false});
+noBtn.addEventListener('focus',runAway);
+function sayYes(){
+ document.getElementById('answer').textContent='¡SABÍA QUE DIRÍAS QUE SÍ! 🥹💗 Prometo invitarte unas michimbas deliciosas. 🍄';
+ document.querySelector('.yes').textContent='¡SÍÍÍ! 💞';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.imagen-perdon {
+  display: block;
+  width: min(90%, 500px);
+  margin: 25px auto;
+  border-radius: 22px;
+  border: 3px solid #ff8acb;
+  box-shadow: 0 0 25px #ff4fa3;
+  animation: latido 2s infinite ease-in-out;
+}
+
+@keyframes latido {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
